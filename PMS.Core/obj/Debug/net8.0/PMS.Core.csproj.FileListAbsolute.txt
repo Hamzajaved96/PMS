@@ -1,0 +1,12 @@
+E:\PMS\PMS\PMS.Core\bin\Debug\net8.0\PMS.Core.deps.json
+E:\PMS\PMS\PMS.Core\bin\Debug\net8.0\PMS.Core.dll
+E:\PMS\PMS\PMS.Core\bin\Debug\net8.0\PMS.Core.pdb
+E:\PMS\PMS\PMS.Core\obj\Debug\net8.0\PMS.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\PMS\PMS\PMS.Core\obj\Debug\net8.0\PMS.Core.AssemblyInfoInputs.cache
+E:\PMS\PMS\PMS.Core\obj\Debug\net8.0\PMS.Core.AssemblyInfo.cs
+E:\PMS\PMS\PMS.Core\obj\Debug\net8.0\PMS.Core.csproj.CoreCompileInputs.cache
+E:\PMS\PMS\PMS.Core\obj\Debug\net8.0\PMS.Core.sourcelink.json
+E:\PMS\PMS\PMS.Core\obj\Debug\net8.0\PMS.Core.dll
+E:\PMS\PMS\PMS.Core\obj\Debug\net8.0\refint\PMS.Core.dll
+E:\PMS\PMS\PMS.Core\obj\Debug\net8.0\PMS.Core.pdb
+E:\PMS\PMS\PMS.Core\obj\Debug\net8.0\ref\PMS.Core.dll

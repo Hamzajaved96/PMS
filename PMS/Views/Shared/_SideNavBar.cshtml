@@ -1,0 +1,69 @@
+﻿  <div id="layoutSidenav_nav">
+        <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+            <div class="sb-sidenav-menu">
+                <div class="nav">
+                    <div class="sb-sidenav-menu-heading">Core</div>
+                    <a class="nav-link" asp-area="" asp-controller="Dashboard" asp-action="Index">
+                        <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                        Dashboard
+                    </a>
+
+                    <!-- Retailer Section -->
+                    <a class="nav-link collapsed"  data-bs-toggle="collapse" data-bs-target="#collapseRetailer" aria-expanded="false" aria-controls="collapseRetailer" >
+                        <div class="sb-nav-link-icon"><i class="fas fa-users"></i></div>
+                        Retailer
+                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                    </a>
+                    <div class="collapse" id="collapseRetailer" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                        <nav class="sb-sidenav-menu-nested nav">
+                            <a class="nav-link" asp-controller="Retailer" asp-action="Index">Retailer List</a>
+                            <a class="nav-link" href="add-new-retailer.html">Add New Retailer</a>
+                        </nav>
+                    </div>
+
+                    <!-- Dealer Section -->
+                    <a class="nav-link collapsed"  data-bs-toggle="collapse" data-bs-target="#collapseDealer" aria-expanded="false" aria-controls="collapseDealer" >
+                        <div class="sb-nav-link-icon"><i class="fas fa-store"></i></div>
+                        Dealer
+                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                    </a>
+                    <div class="collapse" id="collapseDealer" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
+                        <nav class="sb-sidenav-menu-nested nav">
+                            <a class="nav-link" asp-controller="Dealer" asp-action="Index">Dealer List</a>
+                            <a class="nav-link" href="add-new-dealer.html">Add New Dealer</a>
+                        </nav>
+                    </div>
+
+                    <!-- Broiler Section -->
+                    <a class="nav-link collapsed"  data-bs-toggle="collapse" data-bs-target="#collapseBroiler" aria-expanded="false" aria-controls="collapseBroiler" >
+                        <div class="sb-nav-link-icon"><i class="fas fa-drumstick-bite"></i></div>
+                        Broiler
+                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                    </a>
+                    <div class="collapse" id="collapseBroiler" aria-labelledby="headingThree" data-bs-parent="#sidenavAccordion">
+                        <nav class="sb-sidenav-menu-nested nav">
+                            <a class="nav-link" asp-controller="Broiler" asp-action="Index">Broiler List</a>
+                            <a class="nav-link" href="add-new-broiler.html">Add New Broiler</a>
+                        </nav>
+                    </div>
+
+                    <!-- Breeder Section -->
+                    <a class="nav-link collapsed"  data-bs-toggle="collapse" data-bs-target="#collapseBreeder" aria-expanded="false" aria-controls="collapseBreeder" >
+                        <div class="sb-nav-link-icon"><i class="fas fa-egg"></i></div>
+                        Breeder
+                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                    </a>
+                    <div class="collapse" id="collapseBreeder" aria-labelledby="headingFour" data-bs-parent="#sidenavAccordion">
+                        <nav class="sb-sidenav-menu-nested nav">
+                            <a class="nav-link" asp-controller="Breader" asp-action="Index">Breeder List</a>
+                            <a class="nav-link" href="add-new-breeder.html">Add New Breeder</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="sb-sidenav-footer">
+                <div class="small">Logged in as:</div>
+                Your Username
+            </div>
+        </nav>
+    </div>

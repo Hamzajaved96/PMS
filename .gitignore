@@ -1,0 +1,49 @@
+# Ignore build output directories
+/bin/
+/obj/
+
+# User-specific files
+*.user
+*.vspscc
+*.vssscc
+
+# Visual Studio Code settings
+.vscode/
+.vscode/settings.json
+
+# Visual Studio settings
+.vs/
+
+# Rider settings
+.idea/
+
+# ASP.NET Scaffolding
+.scaffolding
+
+# macOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Packages
+packages/
+*.nupkg
+*.snupkg
+
+# Dependencies
+node_modules/
+
+# Publish output
+/wwwroot/
+
+# Configuration files
+appsettings.Development.json
+appsettings.*.json
+
+# Environment-specific files
+.env

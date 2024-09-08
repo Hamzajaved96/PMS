@@ -1,0 +1,5 @@
+E:\PMS\PMS\PMS.Application\obj\Debug\net8.0\PMS.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\PMS\PMS\PMS.Application\obj\Debug\net8.0\PMS.Application.AssemblyInfoInputs.cache
+E:\PMS\PMS\PMS.Application\obj\Debug\net8.0\PMS.Application.AssemblyInfo.cs
+E:\PMS\PMS\PMS.Application\obj\Debug\net8.0\PMS.Application.csproj.CoreCompileInputs.cache
+E:\PMS\PMS\PMS.Application\obj\Debug\net8.0\PMS.Application.sourcelink.json

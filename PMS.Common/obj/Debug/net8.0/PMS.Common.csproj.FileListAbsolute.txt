@@ -1,0 +1,12 @@
+E:\PMS\PMS\PMS.Common\bin\Debug\net8.0\PMS.Common.deps.json
+E:\PMS\PMS\PMS.Common\bin\Debug\net8.0\PMS.Common.dll
+E:\PMS\PMS\PMS.Common\bin\Debug\net8.0\PMS.Common.pdb
+E:\PMS\PMS\PMS.Common\obj\Debug\net8.0\PMS.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\PMS\PMS\PMS.Common\obj\Debug\net8.0\PMS.Common.AssemblyInfoInputs.cache
+E:\PMS\PMS\PMS.Common\obj\Debug\net8.0\PMS.Common.AssemblyInfo.cs
+E:\PMS\PMS\PMS.Common\obj\Debug\net8.0\PMS.Common.csproj.CoreCompileInputs.cache
+E:\PMS\PMS\PMS.Common\obj\Debug\net8.0\PMS.Common.sourcelink.json
+E:\PMS\PMS\PMS.Common\obj\Debug\net8.0\PMS.Common.dll
+E:\PMS\PMS\PMS.Common\obj\Debug\net8.0\refint\PMS.Common.dll
+E:\PMS\PMS\PMS.Common\obj\Debug\net8.0\PMS.Common.pdb
+E:\PMS\PMS\PMS.Common\obj\Debug\net8.0\ref\PMS.Common.dll
