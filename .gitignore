@@ -2,6 +2,18 @@
 /bin/
 /obj/
 
+# Ignore build output directories
+**/bin/
+**/obj/
+PMS/bin/
+PMS/obj/
+PMS.Application/bin/
+PMS.Application/obj/
+PMS.Common/bin/
+PMS.Common/obj/
+PMS.Core/bin/
+PMS.Core/obj/
+
 # User-specific files
 *.user
 *.vspscc
