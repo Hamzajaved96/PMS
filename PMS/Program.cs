@@ -1,11 +1,22 @@
+using PMS.Application;
+using PMS.Infrastracture;
+using PMS.Presistance;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+#region Service Resigtration
 builder.Services.AddControllersWithViews();
+
+// Registering Appilcation layer 
+builder.Services.AddApplication();
+builder.Services.AddPresistance();
+builder.Services.AddInfrastracture();
+#endregion
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+#region Middleware Pipeline Setup
+
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Dashboard/Error");
@@ -23,5 +34,7 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Dashboard}/{action=Index}/{id?}");
+
+#endregion
 
 app.Run();
